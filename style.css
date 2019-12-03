@@ -1,0 +1,93 @@
+/* Write your CSS here */
+body{
+  background: rgb(245,245,245);
+  font-size: 20px;
+  font-family: Roboto;
+}
+h1{
+  color: #011936;
+  font-weight: lighter;
+  align-content: center;
+  text-align: center;
+  font-size: 40px;
+}
+h2 {
+  color: #5E807F ;
+  font-weight: lighter;
+  font-size: 20px;
+}
+p {
+	text-align: center;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+#banner{
+  text-align: center;
+  background-image: url('images/landscape.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+#banner h1 {
+  font-size: 50px;
+}
+#banner p {
+  margin-bottom: 40px;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#banner img {
+  border-radius: 50%;
+}
+#footer{
+  padding: 30px;
+  background-color: black;
+  color: lightgrey;
+}
+
+.cards{
+  margin: 15px auto;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+.card-white img {
+  margin-bottom: 20px;
+}
+.btn-blue {
+  color: white;
+  background-color: #6772e5;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+.btn-blue:hover {
+  background-color: #7795f8;
+  color: white;
+}
+
+@media(max-width: 992px){
+  .cards{
+  width: 750px;
+  grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 768px){
+  .cards{
+  width: 90%;
+  grid-template-columns: 1fr;
+  }
