@@ -5,8 +5,7 @@ body{
   font-family: Roboto;
 }
 h1{
-  color: #011936;
-  font-weight: lighter;
+   font-weight: lighter;
   align-content: center;
   text-align: center;
   font-size: 40px;
@@ -30,6 +29,7 @@ a {
   background-size: cover;
   background-position: center;
   padding: 150px 0;
+  color: white;
 }
 #banner h1 {
   font-size: 50px;
